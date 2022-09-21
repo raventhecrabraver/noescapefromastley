@@ -23,6 +23,16 @@ addEventListener('unload', (event) => { });
 onunload = (event) => {window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 							' ', 'width=690, height=420');}
 		</script>
+		<script>
+			openPopUp: function(myFunction) {
+    var popup_window=window.open(myFunction,"myWindow","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=yes, width=400, height=400");            
+    try {
+        popup_window.focus();   
+    } catch (e) {
+        alert("dawg you ruined the joke with your pop up blocker U+1F62D");
+    }
+}
+		</script>
 	</head>
 	<body>
 		<div class = "gfg" onmouseover = "myFunction()">
